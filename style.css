@@ -855,8 +855,8 @@ iframe {
     align-items: center;
     gap: 30px; 
     /* margin-top: 20px; */
-    height: 200px;
-
+    /* height: 200px; */
+    margin-top: 20px; 
 }
 
 .logo-item { 
@@ -870,6 +870,8 @@ iframe {
 .logo-item img{ 
     max-width: 100%; 
     height: auto; 
+    object-fit: contain;
+    border-radius: 10px; 
     margin-bottom: 10px; 
 }
 
